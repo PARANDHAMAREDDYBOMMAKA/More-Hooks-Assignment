@@ -1,0 +1,48 @@
+html,
+body {
+  background-color: rgb(195, 187, 139);
+}
+.inputContainer {
+  display: flex;
+  justify-content: center;
+}
+.inputContainer input {
+  border-radius: 10px;
+  height: 30px;
+  width: 30%;
+  border: 0px;
+  background-color: aliceblue;
+  text-align: center;
+  padding: 2px;
+  font-size: 15px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+}
+.contentContainer button {
+  padding: 5px;
+  width: 5%;
+  height: 30px;
+  border: 0px;
+  border-radius: 15px;
+  background-color: rgb(176, 131, 54);
+  text-align: center;
+}
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.btnContainer button {
+  border: 0px;
+  width: 15%;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgb(127, 144, 17);
+  text-align: center;
+}
